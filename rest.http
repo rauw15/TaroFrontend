@@ -1,0 +1,83 @@
+///USUARIOS
+### Agregar usuario
+POST http://localhost:3001/usuarios/crear
+Content-Type: application/json
+
+{
+  "email": "asbd@gmail.com",
+  "password": "contrasena123",
+  "nombre": "Juan",
+  "apellido": "Pérez"
+}
+
+### Obtener Usuario
+GET http://localhost:3000/usuarios/obtener/nuevo@email.com
+
+### Actualizar Usuario
+PUT http://localhost:3000/usuarios/actualizar/nuevo@email.com
+Content-Type: application/json
+
+{
+  "nombre": "Juan Carlos",
+  "apellido": "Gómez",
+  "password": "nuevaContraseña",
+}
+
+### Borrar Usuario
+DELETE http://localhost:3000/usuarios/borrar/nuevo@email.com
+
+
+///PRODUCTOS
+
+### Agregar Producto
+POST http://localhost:3000/productos/crear
+Content-Type: application/json
+
+{
+  "nombreProducto": "Camisa",
+  "talla": "M",
+  "marca": "Marca X",
+  "cantidad": 10,
+   "precio": 29.99
+}
+### Obtener Producto
+GET http://localhost:3000/productos/obtener/Nueva Camisa
+
+### Obtener todos
+GET http://localhost:3000/productos/obtenertodos
+
+### Actualizar Producto
+PUT http://localhost:3000/productos/actualizar/Camisa
+Content-Type: application/json
+
+{ 
+  "nombreProducto": "Nueva Camisa",
+  "talla": "L",
+  "marca": "Nueva Marca",
+  "cantidad": 15,
+   "precio": 9.99
+}
+
+### Borrar Producto
+DELETE http://localhost:3000/productos/borrar/Nueva Camisa
+
+/// Ventas
+
+### Agregar ventas
+POST http://localhost:3000/ventas/crear
+Content-Type: application/json
+
+{
+  "Usuario": "654b204521b244bf63f33d54",
+  "Producto": "654b3c02dd40faf06ccef9b0"
+}
+
+
+### Obtener ventas
+GET http://localhost:3000/ventas/obtener/654b3d69166b390080b68466
+
+### Obtener Todas
+GET http://localhost:3000/ventas/obtenertodas
+
+### Borrar venta
+DELETE http://localhost:3000/ventas/borrar/654b3cf1166b390080b6844d

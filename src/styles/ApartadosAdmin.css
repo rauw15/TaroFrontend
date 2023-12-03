@@ -1,0 +1,34 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-info {
+  flex-grow: 1;
+}
+
+.product-actions {
+  margin-left: 10px;
+}
+
+.button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

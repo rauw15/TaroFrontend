@@ -1,0 +1,51 @@
+/* Estilos para el componente Apartados */
+.carrito {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .carrito h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  
+  .carrito ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .carrito li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .carrito p {
+    margin: 0;
+    margin-top: 100px;
+  }
+  
+  /* Botón para vaciar el carrito */
+  .vaciar-carrito {
+    background-color: #e90000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .vaciar-carrito:hover {
+    background-color: #d80000;
+  }
+  

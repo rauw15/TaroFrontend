@@ -1,0 +1,44 @@
+.hombres-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.producto-hombre {
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.producto-hombre:hover {
+  transform: scale(1.05);
+}
+
+.producto-hombre img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.producto-info {
+  padding: 10px;
+}
+
+.producto-titulo {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.producto-precio {
+  font-size: 14px;
+  color: #e90000; /* Color rojo similar a Nike */
+}

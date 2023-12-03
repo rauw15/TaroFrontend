@@ -1,0 +1,104 @@
+/* estilosnavbar.css */
+nav {
+  background-color: green;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilos para el logotipo */
+nav img {
+  max-width: 50px; /* Tamaño máximo del logotipo */
+  margin-right: 10px; /* Espacio entre el logotipo y las opciones del menú */
+}
+
+/* Estilos para centrar las opciones del menú */
+nav ul {
+  flex: 1; /* Esto permite que las opciones del menú ocupen todo el espacio restante */
+  justify-content: center;
+}
+
+/* Estilos para centrar el boton del navbar */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px; /* Espacio entre el botón y el icono */
+}
+
+.login-button:hover {
+  text-decoration: underline;
+}
+
+/* ... (estilos previos) */
+
+/* Estilos para centrar el contenido en la parte derecha del navbar */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: px; /* Espacio entre el botón y los iconos */
+}
+
+.icon {
+  margin-right: 10px; /* Espacio entre los iconos */
+}
+
+
+.search-label {
+  display: flex;
+  align-items: center;
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  justify-content: flex-end; /* Mueve el contenido a la izquierda */
+}
+
+.search-icon {
+  margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+/* Agrega estilos al botón de carrito */
+.cart-button {
+  background-color: #228d4d; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 8px 16px; /* Espaciado interno */
+  border: none; /* Borde */
+  border-radius: 4px; /* Borde redondeado */
+  cursor: pointer; /* Cursor de la mano al pasar el ratón */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+
+  /* Estilos al pasar el ratón por encima */
+  &:hover {
+    background-color: #0056b3; /* Nuevo color de fondo al pasar el ratón */
+  }
+}

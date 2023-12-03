@@ -1,0 +1,74 @@
+.modal-mensajes {
+  width: 600px;
+  height: 250px;
+  margin-left: 500px;
+}
+
+.modal-overlay {
+  background-color: rgba(248, 245, 245, 0.5);
+}
+
+.mensajes-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mensajes-list {
+  overflow-y: auto;
+  flex-grow: 1;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.mensaje-item-yo,
+.mensaje-item-otro {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.mensaje-item-yo {
+  align-items: flex-end;
+  color: #4caf50;
+}
+
+.mensaje-item-otro {
+  align-items: flex-start;
+  color: black;
+}
+
+.mensaje-item-yo strong {
+  margin-right: 5px;
+}
+
+.mensaje-input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.mensaje-input-container input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.mensaje-input-container button {
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.mensaje-input-container button:hover {
+  background-color: #45a049;
+}
